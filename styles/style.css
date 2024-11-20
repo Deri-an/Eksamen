@@ -1,0 +1,108 @@
+h1, h2, p {
+  color: white;
+  font-family: 'Courier New', monospace;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+header, article {
+  width: 90%;
+  background-color: rgb(10, 10, 10);
+  margin: auto;
+  border-radius: 1.5em;
+}
+
+header {
+  display: flex;
+  text-align: right;
+  height: 8em;
+}
+
+nav {
+  margin: auto;
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
+}
+
+.menu li {
+  margin-left: 1rem;
+  color: white;
+}
+
+.derigaming {
+  height: 8em;
+  border-radius: 5em;
+}
+
+article {
+  text-align: center;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+ article p {
+  text-align: left;
+ }
+ 
+ .thicktext {
+  font-weight: 800;
+ }
+
+ .maintext {
+  width: 70%;
+  padding-top: 3em;
+ }
+
+ .article {
+  display: flex;
+ }
+
+ .events {
+  margin: 1.5rem;
+  float: right;
+  width: 30%;
+  display: block;
+ }
+
+ .imageholder {
+  margin-top: 2em;
+  border: 0.07em solid rgba(255, 255, 255, 0.141);
+  padding: 0;
+  float: right;
+  background-color: rgb(30,30,30);
+  width: 90%;
+  height: 20rem;
+  padding: 1em;
+  margin: 0;
+ }
+
+ .image {
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  float: center;
+  height: 70%;
+  width: 70%;
+ }
+
+ .imageholder p {
+  text-align: center;
+ }
+
+
+
