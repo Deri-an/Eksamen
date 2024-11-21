@@ -134,11 +134,11 @@ footer{
 
 /*stylying for semestertabell*/
 body {
-  background-color: #070606;
+  background-color: #ffffff;
   margin: 20px;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color:blue;
+  color:rgb(0, 0, 0);
 }
 h1 {
   text-align: center;
@@ -147,7 +147,7 @@ h1 {
 }
 table.semestertable th,
 table.semestertable td {
-  background-color: red;
+  background-color: rgb(116, 111, 111);
   color:aqua;
   font-weight:bold;
 }
@@ -159,7 +159,7 @@ details {
 }
 
 details summary {
-  color:blue;
+  color:rgb(252, 252, 255);
   font-weight:bold;
   outline: #070606;
 }
@@ -177,11 +177,11 @@ details ul li {
 
 /* hover effects*/
 table.semester-table td:hover {
-  background-color: #00FF4C;
+  background-color: #ffffff;
 }
 
 summary:hover {
-  color: red;
+  color: rgb(129, 127, 127);
 }
 /* Responsive design */
 @media (max-width: 768px) {
