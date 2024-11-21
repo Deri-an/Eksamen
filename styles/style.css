@@ -1,39 +1,31 @@
 
-header {
-  
-}
-
-
-
-body {
-  margin: auto;
-}
-
 
 
 
 
 /* Styling for header */
 .felles-header {
-  background-color: rgba(19, 219, 19, 0.829);
+  background-color: #00FF4C;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 2rem;
-
-
+  padding: 1rem 2rem;
+  padding-bottom: 1rem;
+  border-style: ridge;
+  
 }
 
 .logo {
   text-align: center;
   margin-bottom: 20px;
+  background-color: #00FF4C ;
 
 }
 
 .logo img {
   max-width: 120px;
   height: auto;
-  background-blend-mode:color ;
-  background-color: rgba(19, 219, 19, 0.829)  ;
+  mix-blend-mode:multiply ;
+  background-color:#00FF4C;
 }
 
 
@@ -44,13 +36,13 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 22px;
 }
 
 nav ul li a {
   text-decoration:underline;
   font-weight: bold;
   color: #070606;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 
 }
