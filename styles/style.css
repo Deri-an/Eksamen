@@ -133,6 +133,43 @@ footer{
 
 
 
+
+
+/*styling for sections*/
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid;
+}
+
+.section-catogary {
+  font-weight: bold;
+  font-size: 24px ;
+  text-decoration: underline;
+}
+
+.section-value {
+  font-size: 20px;
+}
+
+
+
+
+
 /*stylying for semestertabell*/
 body {
   background-color: #ffffff;
