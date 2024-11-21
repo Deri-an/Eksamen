@@ -49,6 +49,7 @@ nav ul li a {
 footer{
   background-color: #00FF4C;
   padding: 40px;
+  border-style: ridge;
 
 }
 .footer-box{
@@ -141,9 +142,10 @@ body {
   color:rgb(0, 0, 0);
 }
 h1 {
-  text-align: center;
+  text-align: left;
   color: rgb(0, 0, 0);
   margin-bottom: 20px;
+  text-decoration: underline ;
 }
 table.semester-table {
   width: 100%;
