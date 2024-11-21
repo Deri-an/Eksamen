@@ -126,5 +126,79 @@ footer{
 .footer-nyhet button {
   background-color: black;
   padding: 10px 20px
-  
+
 }
+
+
+
+
+/*stylying for semestertabell*/
+body {
+  background-color: #070606;
+  margin: 20px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:blue;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+table.semestertable th,
+table.semestertable td {
+  background-color: red;
+  color:aqua;
+  font-weight:bold;
+}
+
+/*dropdownmenu i main*/
+details {
+  margin: 5px 0;
+  cursor:pointer
+}
+
+details summary {
+  color:blue;
+  font-weight:bold;
+  outline: #070606;
+}
+
+details ul {
+  margin-top: 5px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: black;
+}
+
+details ul li {
+  margin: 5px 0
+}
+
+/* hover effects*/
+table.semester-table td:hover {
+  background-color: #00FF4C;
+}
+
+summary:hover {
+  color: red;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+body {
+  margin: 10px;
+}
+ 
+h1 {
+  font-size: 1.5em;
+}
+ 
+table.semester-table {
+  font-size: 0.9em;
+    }
+ 
+details summary {
+ font-size: 1em;
+}
+}
+ 
