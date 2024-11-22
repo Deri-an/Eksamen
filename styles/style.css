@@ -68,6 +68,10 @@ a {
   font-size: 1.5em;
 }
 
+.footer-merinfo ul li a {
+  color: black;
+}
+
 a:active {
   color: none;
 }
@@ -124,10 +128,10 @@ footer{
   margin-bottom: 0.25em;
 }
 
-.footer-merinfo, .footer-sosialmedia {
-  flex: 1;
-  display: flex;
+.footer-merinfo {
+  display: grid;
   justify-content: center;
+  margin-left: 3em;
 }
 
 
