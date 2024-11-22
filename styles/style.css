@@ -48,9 +48,6 @@ a {
   color: rgb(0, 0, 0);
 }
 
-.footer-oslomet a {
-  font-size: 1.5em;
-}
 
 .footer-bottom {
   width: 100%;
@@ -59,8 +56,17 @@ a {
   border-color: black;
   padding-top: 2em;
   padding-bottom: 1em;
+  align-items: center;
+  display: flex;
 }
 
+.footer-bottom div {
+  margin: auto;
+}
+
+.footer-bottom a {
+  font-size: 1.5em;
+}
 
 a:active {
   color: none;
@@ -150,18 +156,11 @@ footer{
   margin: 0 0.6em;
 }
 
-.footer-nyhet {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-nyhet button {
   background-color: black;
   padding: 0.6em 1.25em
 
 }
-
 
 
 /*styling for sections*/
