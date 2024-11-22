@@ -89,13 +89,14 @@ footer{
   display: grid;
 }
 
-.footer-box{
+.footer-box {
   width: 70%;
   padding: 3.5em;
   margin: auto;
   display: flex;
   align-items: center;
   text-align: center;
+  align-items: flex-start;
 }
 
 .underline {
@@ -130,8 +131,12 @@ footer{
 
 .footer-merinfo {
   display: grid;
-  justify-content: center;
   margin-left: 3em;
+}
+
+.footer-oslomet, .footer-merinfo {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -154,10 +159,9 @@ footer{
   align-items: center;
 }
 
-.footer-sosialmedia a {
-  font-size: 1.5em;
-  color: white;
-  margin: 0 0.6em;
+.footer-socialmedia * {
+  text-decoration: none;
+  margin-left: 0.5em;
 }
 
 .footer-nyhet button {
