@@ -43,7 +43,28 @@ nav ul li a {
 
 }
 
+a {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
 
+.footer-oslomet a {
+  font-size: 1.5em;
+}
+
+.footer-bottom {
+  width: 100%;
+  border: 0.02em;
+  border-top-style: solid;
+  border-color: black;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+
+a:active {
+  color: none;
+}
 /* styling for felles-footer*/
 
 footer{
@@ -55,17 +76,22 @@ footer{
   float: center;
   margin-top: 7em;
   align-items: center;
-  display: flex;
+  display: grid;
 }
 
 .footer-box{
   width: 70%;
   padding: 3.5em;
   margin: auto;
-  display: grid;
-  flex-direction: column;
+  display: flex;
   align-items: center;
   text-align: center;
+}
+
+.underline {
+  border: 0.02em;
+  border-bottom-style: solid;
+  border-color: black;
 }
 
 .footer-text { 
@@ -76,7 +102,7 @@ footer{
 
 
 .footer-text h2 {
-  font-size: 1.5em;
+  font-size: 2.1em;
   margin-bottom: 0.6em;
   text-align: center;
 
@@ -259,4 +285,3 @@ details summary {
  font-size: 1em;
 }
 }
- 
