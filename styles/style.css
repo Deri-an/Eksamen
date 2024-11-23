@@ -4,7 +4,7 @@
 
 
 /* Styling for header */
-.felles-header {
+header {
   background-color: #00FF4C;
   display: flex;
   justify-content: space-between;
@@ -84,7 +84,7 @@ footer{
   background-image: linear-gradient(white,#a2ffbe);
   width: 100%;
   float: center;
-  margin-top: 7em;
+  margin-top: 2em;
   align-items: center;
   display: grid;
 }
@@ -92,6 +92,7 @@ footer{
 .footer-box {
   width: 70%;
   padding: 3.5em;
+  padding-bottom: 1em;
   margin: auto;
   display: flex;
   align-items: center;
