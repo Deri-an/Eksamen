@@ -227,32 +227,6 @@ footer{
 }
 
 
-/*styling for boxes*/
-
-.insikt details {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.25em auto;
-  background-color: #8df32d;
-  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1)
-}
-
-
-.insikt summary {
-  text-decoration: underline;
-
-}
-
-
-
-
-
-
-
-
-
-
-
 /*stylying for semestertabell*/
 body {
   background-color: #ffffff;
