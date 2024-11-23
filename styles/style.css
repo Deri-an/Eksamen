@@ -321,3 +321,7 @@ details summary {
  font-size: 1em;
 }
 }
+
+.rightspace {
+  margin-right: 2em;
+}
