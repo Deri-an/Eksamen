@@ -261,6 +261,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color:rgb(0, 0, 0);
 }
+.table-heading {
+  background-color: #a9e571;
+}
+
 h1 {
   text-align: left;
   color: rgb(0, 0, 0);
