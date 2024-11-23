@@ -257,6 +257,7 @@ table.semester-table th, table.semester-table td {
   border: 0.05em solid #ccc;
   padding: 0.6em;
   text-align: left;
+  font-weight: bold;
 }
 table.semestertable th {
   background-color: rgb(116, 111, 111);
@@ -264,7 +265,7 @@ table.semestertable th {
   font-weight:bold;
 }
 table.semester-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #e0e0e0;
 }
 
 table.semester-table tr:nth-child(odd) {
@@ -295,12 +296,12 @@ details ul li {
 }
 
 /* hover effects*/
-table.semester-table td:hover {
-  background-color: #ffffff;
-}
+/*table.semester-table td:hover {
+  background-color: #e6e6e6c0;
+}*/
 
 summary:hover {
-  color: rgb(129, 127, 127);
+  color: rgba(117, 117, 117, 0.86);
 }
 /* Responsive design */
 @media (max-width: 48em) {
