@@ -28,6 +28,19 @@ nav {
   align-items: center;
 }
 
+article {
+  display: grid;
+}
+
+article div {
+  float: center;
+  text-align: center;
+}
+
+article div h2 {
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
