@@ -93,8 +93,12 @@ main {
 a:active {
   color: none;
 }
-/* styling for felles-footer*/
 
+.article-bottom {
+  width: 100%;
+}
+
+/* styling for felles-footer*/
 footer{
   padding: 0;
   margin: 0;
