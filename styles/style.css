@@ -5,11 +5,9 @@
 
 /* Styling for header */
 header {
-  background-color: #00FF4C;
+  background-color: #a2ffbe;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
-  padding-bottom: 1rem;
   border-style: ridge;
   
 }
@@ -17,7 +15,7 @@ header {
 .logo {
   text-align: center;
   margin-bottom: 1.25em;
-  background-color: #00FF4C ;
+  background-color: #a2ffbe ;
 
 }
 
@@ -25,7 +23,7 @@ header {
   max-width: 7.5em;
   height: auto;
   mix-blend-mode:multiply ;
-  background-color:#00FF4C;
+  background-color:#a2ffbe;
 }
 
 /* Styling for navigasjonsmeny */
