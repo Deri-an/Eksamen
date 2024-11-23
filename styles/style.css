@@ -6,39 +6,50 @@
 /* Styling for header */
 header {
   background-color: #a2ffbe;
-  display: flex;
   justify-content: space-between;
   border-style: ridge;
-  
+
 }
 
-.logo {
+.oslomet-logo {
   text-align: center;
   margin-bottom: 1.25em;
-  background-color: #a2ffbe ;
-
+  background-color: #a2ffbe;
+  margin: 0;
 }
 
-.logo img {
+.oslomet-logo img {
   max-width: 7.5em;
   height: auto;
-  mix-blend-mode:multiply ;
+  mix-blend-mode:multiply;
   background-color:#a2ffbe;
 }
 
 /* Styling for navigasjonsmeny */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.4em;
+  gap: 5em;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul li {
+  vertical-align: center;
+  margin: auto;
 }
 
 nav ul li a {
-  text-decoration:underline;
   font-weight: bold;
   color: #070606;
-  font-size: 1.3rem;
-
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 a {
