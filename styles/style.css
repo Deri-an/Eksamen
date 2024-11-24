@@ -401,6 +401,14 @@ h2 {
   font-weight: lighter;
 }
 
+.semester-table h3{
+  font-size: 1em;
+}
+
+.semester-table li {
+   font-weight:lighter;
+}
+
 table.semester-table {
   width: 80%;
   margin: auto;
