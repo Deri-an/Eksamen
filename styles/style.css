@@ -214,6 +214,14 @@ a:active {
   padding: 0;
 }
 
+.article-top {
+  border-left: solid green 1em;
+  border-right: solid green 1em;
+  width: 80%;
+  float: center;
+  margin: auto;
+}
+
 /* styling for felles-footer*/
 footer{
   padding: 0;
@@ -364,7 +372,7 @@ footer{
 }
 
 .section-category p {
-    margin-inline-end: 10em;
+    margin-inline-end: 0;
 }
 
 /*stylying for semestertabell*/
