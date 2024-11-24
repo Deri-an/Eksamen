@@ -12,13 +12,15 @@ header {
   margin: 0;
 }
 
-.container {
+.overskrift {
+  padding-top: 3em;
   width: 80%;
   margin: auto;
   float: middle;
+  text-align: center;
 }
 
-.container h2 {
+.overskrift p {
   font-size: 1.4em;
 }
 
@@ -133,6 +135,10 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+}
+
+article {
+  padding-top: 3em;
 }
 
 .article-bottom a {
@@ -322,22 +328,6 @@ footer{
 
 
 /*styling for sections*/
-.heading {
-  font-size: 2.2em;
-  font-weight: bold;
-  padding-top:2.5em;
-  margin-top: 0;
-  margin-bottom: 0.6em;
-  text-decoration: none;
-  text-align: center;
-}
-
-.subheading {
-  font-size: 1.1em;
-  margin-bottom: 2.5em;
-  text-align: center;
-}
-
 .oversikt {
   width: 80%;
   margin: auto;
@@ -387,11 +377,12 @@ body {
 }
 
 h1 {
-  text-align: left;
-  color: rgb(0, 0, 0);
-  margin-bottom: 1.2em;
-  text-decoration: underline ;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
 }
+
 
 h2 {
   text-align: center;
@@ -418,6 +409,8 @@ table.semester-table {
   background-color: #fff;
   box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
 }
+
+
 
 table.semester-table th, table.semester-table td {
   border: 0.05em solid #ccc;
@@ -491,4 +484,30 @@ details summary {
 .rightandleftspace {
   margin-right: 0.5em;
   margin-left: 0.5em;
+}
+
+/* these lines are exclusive to the github page */
+
+.collaboration {
+  width: 95%;
+  margin: auto;
+}
+
+.image1, .image2 {
+  width: 95%;
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+  height: 20em;
+}
+
+.image1 img, .image2 img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.commit-image {
+  padding: 0;
+  margin: 0;
 }
