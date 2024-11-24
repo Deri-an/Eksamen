@@ -220,6 +220,7 @@ article {
 
 .faglig-leder img {
   width: 40%;
+  border: double 0.02em;
 }
 
 .student-historier img {
@@ -516,7 +517,12 @@ details summary {
 /* these lines are exclusive to the github page */
 
 .collaboration {
-  width: 95%;
+  width: 90%;
+  margin: auto;
+}
+
+.collaboration > div {
+  width: 100%;
   margin: auto;
 }
 
@@ -533,15 +539,20 @@ details summary {
   margin-bottom: 1em;
 }
 
-.image1 img, .image2 img {
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-
 .commit-image {
   padding: 0;
   margin: 0;
+  width: 70%;
+}
+
+.commit-text {
+  width: 30%;
+}
+
+.image1 img, .image2 img, .specific-changes img {
+  height: 100%;
+  width: 100%;  
+  overflow: hidden;
 }
 
 .image2 div {
@@ -550,4 +561,12 @@ details summary {
 
 .specific-changes {
   display: flex;
+}
+
+.specific-changes > div {
+  text-align: center;
+}
+
+.specific-changes p {
+  color:#464646;
 }
