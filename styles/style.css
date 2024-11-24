@@ -352,15 +352,19 @@ footer{
   border-bottom: solid 0.05em
 }
 
-.section-catogary {
+.section-category h2 {
   font-weight: bold;
   font-size: 1.5em ;
+  border-right: solid 0.01em;
 }
 
-.section-value {
-  font-size: 1.25em;
+.section-category {
+  text-align: left;
 }
 
+.section-category p {
+    margin-inline-end: 10em;
+}
 
 /*stylying for semestertabell*/
 body {
@@ -377,7 +381,7 @@ body {
 h1 {
   text-align: left;
   color: rgb(0, 0, 0);
-  margin-bottom: 20px;
+  margin-bottom: 1.2em;
   text-decoration: underline ;
 }
 
