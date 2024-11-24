@@ -36,10 +36,6 @@ nav {
   align-items: center;
 }
 
-article {
-  display: grid;
-}
-
 article div {
   margin: auto;
   float: center;
@@ -153,9 +149,19 @@ a:active {
   padding: 0;
 }
 
+.studiebakgrunn {
+  display: grid;
+  width: 80%;
+}
+
+.studiebakg
+
 .faglig-leder {
   margin: auto;
   float: center;
+  width: 100%;
+  background-color: red;
+  margin-top: 3em;
 }
 
 .faglig-leder img {
