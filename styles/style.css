@@ -5,6 +5,10 @@ header {
   border-bottom-style: ridge;
 }
 
+p, h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .oslomet-logo {
   text-align: center;
   margin-bottom: 1.25em;
@@ -86,6 +90,20 @@ a {
 
 .side-nav > div {
   text-align: center;
+}
+
+.side-nav a {
+  text-decoration: none;
+}
+
+.side-nav a > div {
+  display: flex;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.side-nav a > div:hover {
+  background-color: rgb(216, 216, 216);
 }
 
 main {
