@@ -84,6 +84,10 @@ a {
   border-right-style: double;
 }
 
+.side-nav > div {
+  text-align: center;
+}
+
 main {
   width: 81%;
   margin-left: 19%;
@@ -128,11 +132,11 @@ a:active {
   margin-top: 3em;
 }
 
-.article-bottom div {
-  display: inline-block;
+.article-bottom > div {
   width: 48%;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
 .article-bottom a {
@@ -140,6 +144,7 @@ a:active {
 }
 
 .kanskje-interessert {
+  display: inline-block;
   background-color: white;
   border: solid 0.01em;
   display: flex;
@@ -152,22 +157,61 @@ a:active {
 
 .studiebakgrunn {
   display: grid;
+  align-items: center;
+}
+
+.student-historier {
+  text-align: center;
+  border: solid 0.01em;
+  background-color: #c2ffd4;
+  padding: 0.3em;
+}
+
+.studiebakgrunn div {
+  float: center;
+  margin: auto;
+}
+
+.studieinformasjon {
   width: 80%;
+  text-align: center;
 }
 
 .faglig-leder {
-  margin: auto;
-  float: center;
   width: 100%;
-  background-color: red;
   margin-top: 3em;
+  text-align: center;
 }
 
-.faglig-leder img {
-  width: 100%;
+.faglig-leder img, .studenthistorier img, .side-nav img  {
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+}
+
+.faglig-leder img {
+  width: 40%;
+}
+
+.student-historier img {
+  width: 95%;
+}
+
+.side-nav img {
+  width: 80%;
+}
+
+.side-nav li {
+  list-style: none;
+  border-bottom: solid 0.01em;
+}
+
+.side-nav li a {
+  height: 100%;
+}
+
+.side-nav ul {
+  padding: 0;
 }
 
 /* styling for felles-footer*/
