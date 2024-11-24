@@ -3,8 +3,6 @@ header {
   background-color: #a2ffbe;
   justify-content: space-between;
   border-bottom-style: ridge;
-  width: 81%;
-  margin-left: 19%;
 }
 
 .oslomet-logo {
@@ -89,8 +87,6 @@ a {
 }
 
 main {
-  width: 81%;
-  margin-left: 19%;
   background-color:#e3ffeb;
   background-image: linear-gradient( #e3ffeb, white)
 }
@@ -227,8 +223,6 @@ footer{
   padding: 0;
   margin: 0;
   margin-top: 2em;
-  margin-left: 19%;
-  width: 81%;
   background-color: #a2ffbe;
   background-image: linear-gradient(white,#a2ffbe);
   float: center;
@@ -375,14 +369,19 @@ footer{
     margin-inline-end: 0;
 }
 
+.pushright {
+  width: 81%;
+  margin-left: 19%;
+}
 /*stylying for semestertabell*/
 body {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color:rgb(0, 0, 0);
+  color:rgb(0, 0, 0); 
 }
+
 .table-heading {
   background-color: #a2ffbe;
 }
