@@ -127,6 +127,7 @@ a:active {
   align-items: center;
   align-items: flex-start;
   margin: auto;
+  margin-top: 3em;
 }
 
 .article-bottom div {
@@ -139,6 +140,22 @@ a:active {
 
 .article-bottom a {
   text-decoration: none;
+}
+
+.kanskje-interessert {
+  background-color: white;
+  border: solid 0.01em;
+  display: flex;
+}
+
+.kanskje-interessert ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faglig-leder {
+  margin: auto;
+  float: center;
 }
 
 .faglig-leder img {
@@ -167,7 +184,6 @@ footer{
 }
 
 .interessert-liste a div {
-  background-color: red;
   width: 100%;
 }
 
