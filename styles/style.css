@@ -102,6 +102,15 @@ a {
   text-align: left;
 }
 
+.side-nav a > div > div{
+  font-size: 1.8em; 
+  margin-left: auto;
+  padding-right: 0.15em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+}
+
 .side-nav a > div:hover {
   background-color: rgb(216, 216, 216);
 }
