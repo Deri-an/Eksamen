@@ -1,9 +1,9 @@
-h1, h2, p, a {
-  color: white;
+h1, h2, h3, p {
+  color: rgb(255, 255, 255);
   font-family: 'Courier New', monospace;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 100;
 }
 
@@ -15,7 +15,7 @@ h2 {
   font-size: 2em;
 }
 
-header, article {
+header, article, footer {
   width: 90%;
   background-color: rgb(10, 10, 10);
   margin: auto;
@@ -29,23 +29,36 @@ header {
 }
 
 nav {
-  width: 50%;
-  display: flex;
+  width: 60%;
   margin: auto;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
-nav > a {
-  margin: auto;
-  width: 10%;
-  background-color: rgb(35, 35, 35);
-  border: solid 0.01em rgb(50, 50, 50);
-}
-
-nav > a > div {
+nav > ul {
   width: 100%;
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 70%;
+  display: flex;
+}
+
+nav li {
+  margin: auto;
+  margin-left: 5%;
+  background-color: rgb(36, 36, 36);
+  border: solid rgb(60, 60, 60) 0.01em;
   height: 100%;
-  background-color: white;
+  width: 20%;
+  text-align: center;
+} 
+
+nav h2 {
+  font-size: 1.1em;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 .menu {
@@ -120,5 +133,19 @@ article {
   text-align: center;
  }
 
+footer {
+  margin-top: 3em;
+  height: 6em;
+  padding: 2em;
+}
 
+footer a {
+  text-decoration: underline;
+  color: white;
+}
 
+footer h3 {
+  border-bottom: rgb(60, 60, 60) solid 0.01em;
+  border-right: rgb(60, 60, 60) solid 0.01em;
+  width: 55%
+}
