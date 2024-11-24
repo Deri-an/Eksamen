@@ -20,7 +20,9 @@ header {
   float: middle;
 }
 
-
+.container h2 {
+  font-size: 1.4em;
+}
 
 .oslomet-logo img {
   max-width: 7.5em;
