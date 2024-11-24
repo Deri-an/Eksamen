@@ -390,6 +390,10 @@ h2 {
   text-align: center;
 }
 
+.semester-table a {
+  font-weight: lighter;
+}
+
 table.semester-table {
   width: 80%;
   margin: auto;
