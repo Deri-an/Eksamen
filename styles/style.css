@@ -5,6 +5,10 @@ header {
   border-bottom-style: ridge;
 }
 
+p, h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .oslomet-logo {
   text-align: center;
   margin-bottom: 1.25em;
@@ -86,6 +90,29 @@ a {
 
 .side-nav > div {
   text-align: center;
+}
+
+.side-nav a {
+  text-decoration: none;
+}
+
+.side-nav a > div {
+  display: flex;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.side-nav a > div > div{
+  font-size: 1.8em; 
+  margin-left: auto;
+  padding-right: 0.15em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+}
+
+.side-nav a > div:hover {
+  background-color: rgb(216, 216, 216);
 }
 
 main {
@@ -193,6 +220,7 @@ article {
 
 .faglig-leder img {
   width: 40%;
+  border: double 0.02em;
 }
 
 .student-historier img {
@@ -489,7 +517,12 @@ details summary {
 /* these lines are exclusive to the github page */
 
 .collaboration {
-  width: 95%;
+  width: 90%;
+  margin: auto;
+}
+
+.collaboration > div {
+  width: 100%;
   margin: auto;
 }
 
@@ -506,15 +539,20 @@ details summary {
   margin-bottom: 1em;
 }
 
-.image1 img, .image2 img {
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-
 .commit-image {
   padding: 0;
   margin: 0;
+  width: 70%;
+}
+
+.commit-text {
+  width: 30%;
+}
+
+.image1 img, .image2 img, .specific-changes img {
+  height: 100%;
+  width: 100%;  
+  overflow: hidden;
 }
 
 .image2 div {
@@ -523,4 +561,12 @@ details summary {
 
 .specific-changes {
   display: flex;
+}
+
+.specific-changes > div {
+  text-align: center;
+}
+
+.specific-changes p {
+  color:#464646;
 }
