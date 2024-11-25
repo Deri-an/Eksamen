@@ -274,6 +274,7 @@ footer{
   align-items: center;
   text-align: center;
   align-items: flex-start;
+  margin: auto;
 }
 
 .underline {
@@ -786,5 +787,11 @@ summary:hover {
   }
   nav a {
     font-size: 1.1em;
+  }
+}
+
+@media(max-width:600px){
+  .nav a {
+    font-size: 10em;
   }
 }
