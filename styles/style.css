@@ -352,6 +352,34 @@ footer{
   font-size: 1.3em;
 }
 
+.sammensatt-tekst {
+  text-align: center;
+}
+
+.lighthouse-bilder {
+  display: flex;
+  width: 95%;
+  height: 20em;
+  margin-bottom: 4em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.lighthouse-bilder div {
+  height: 70%;
+  width: 70%;
+  margin: auto;
+  object-fit: contain;
+  text-align: center;
+}
+
+.lighthouse-bilder img {
+  width: 110%;
+  object-fit: contain;
+}
+
+
+
 /*styling for sections*/
 .oversikt {
   width: 80%;
@@ -548,23 +576,6 @@ summary:hover {
 
 .specific-changes p {
   color:#464646;
-}
-
-.lighthouse-bilder {
-  display: block;
-  text-align: center;
-  margin: auto;
-  background-color: white;
-  border: double 0.2em;
-}
-
-.lighthouse-bilder p {
-  color: rgb(71, 71, 71);
-  margin-bottom: 3em;
-}
-
-.lighthouse-bilder img {
-  width: 100%;
 }
 
 /*everything beyond here is for activity. */
@@ -863,5 +874,14 @@ summary:hover {
   }
   .activity .footer-right, .activity .footer-left {
     width: 85%;
+  }
+  .lighthouse-bilder {
+    display: grid;
+  }
+  .sammensatt-tekst img {
+    width: 100%;
+  }
+  .sammensatt-tekst {
+    margin-top: 25em;
   }
 }
