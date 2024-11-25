@@ -1,4 +1,15 @@
-/* Styling for header */
+/*Heads up for future developers:
+This file has 4 htmls, with 1 being the index, that has its' own complex side-navigation. 2 htmls that share the style of
+the index, but lack some of the more complex aspects. Lastly we have the activity page, which is its' own kind of thing.
+
+First of all the index file has a unique div to it called "pushright", and it basically serves as a <main>,
+but it leaves a margin on the right, so there is space for the side navigation, which is unique to the index file.
+This is so that I can have the same style on all of them, but only a side navigation for one of them.
+Also, all of the styling with a ".activity" on the start belongs to activity.html. This is so that I can have 1 CSS file, and avoid having weird class names on the activity page.
+
+Content: 
+
+Styling for the general header, used for all 3 primary htmls*/
 header {
   justify-content: space-between;
   border-bottom-style: ridge;
@@ -579,6 +590,12 @@ summary:hover {
 }
 
 /*everything beyond here is for activity. */
+
+.activity main {
+  background-color: white;
+}
+
+
 .activity h1, .activity h2, .activity h3, .activity p {
   color: rgb(255, 255, 255);
   font-family: 'Courier New', monospace;
@@ -597,7 +614,7 @@ summary:hover {
 }
 
 .activity header, .activity article, .activity footer {
-  width: 90%;
+  width: 80%;
   background-color: rgb(10, 10, 10);
   margin: auto;
   border-radius: 1.5em;
@@ -607,6 +624,10 @@ summary:hover {
   display: flex;
   text-align: right;
   height: 8em;
+}
+
+.activity .intro-text {
+  text-align: center;
 }
 
 .activity nav {
@@ -785,23 +806,28 @@ summary:hover {
     width: 0%;
     height: 0%;
   }
+
   .side-nav p, .side-nav a, .side-nav div {
     height: 0;
     opacity: 0;
   }
+
   .pushright {
     width: 100%;
     margin-left: 0%;
   }
+
   .footer-bottom, .footer-text, .footer-box {
     width: 80%;
     padding: 1rem;
     margin: auto;
     display: block;
   }
+
   .footer-bottom {
     text-align: center;
   }
+
   nav {
     height: 3em;
   }
@@ -809,42 +835,58 @@ summary:hover {
   nav a {
     font-size: 0.7em;
   }
+
   .footer-text {
     width: 90%;
   }
+
   .oversikt h2 {
     font-size: 1em;
   }
+
   .specific-changes{
     display: block;
     text-align: center;
   }
+
   .kanskje-interessert h2 {
     font-size: 1.2em;
   }
+
   .kanskje-interessert h3 {
     font-size: 1em;
   }
+
   .kanskje-interessert p {
     font-size: 0.8em;
   }
+
   .student-historier h2 {
     font-size: 1.3em;
   }
+
   .faglig-leder p {
     font-size: 0.8em;
   }
+
   .activity nav {
     margin: auto;
   }
+
   .activity header img {
     max-height: 40%;
     width: 40%;
     object-fit: contain;
     margin: auto;
   }
+
   .activity header a {
     font-size: 0.4em;
+  }
+
+  .activity header {
+    width: 100%;
+    margin: auto;
   }
 
   .activity nav > div {
@@ -869,6 +911,13 @@ summary:hover {
     margin: auto;
   }
 
+  .activity article {
+    width: 80%;
+  }
+
+  .activity h1 {
+    font-size: 3em;
+  }
   .activity .footer-top {
     display: block;
   }
