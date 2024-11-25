@@ -38,7 +38,6 @@ header, .oslomet-logo, .oslomet-logo img {
   height: 50%;
   width: 50%;
   mix-blend-mode:multiply;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 /* Styling for navigasjonsmeny */
@@ -132,6 +131,10 @@ main {
 
 .footer-bottom a {
   font-size: 1.5em;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .footer-merinfo ul li a {
@@ -772,6 +775,7 @@ summary:hover {
     width: 80%;
     padding: 1rem;
     margin: auto;
+    display: block;
   }
   .footer-bottom {
     text-align: center;
@@ -781,9 +785,31 @@ summary:hover {
   }
   
   nav a {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .footer-text {
     width: 90%;
+  }
+  .oversikt h2 {
+    font-size: 1em;
+  }
+  .specific-changes{
+    display: block;
+    text-align: center;
+  }
+  .kanskje-interessert h2 {
+    font-size: 1.2em;
+  }
+  .kanskje-interessert h3 {
+    font-size: 1em;
+  }
+  .kanskje-interessert p {
+    font-size: 0.8em;
+  }
+  .student-historier h2 {
+    font-size: 1.3em;
+  }
+  .faglig-leder p {
+    font-size: 0.8em;
   }
 }
