@@ -698,13 +698,8 @@ summary:hover {
 .activity footer {
   margin-top: 3em;
   padding: 2em;
-  display: block;
-  background-image: none;
-}
-
-.activity .footer-top {
   display: flex;
-  height: 80%;
+  background-image: none;
 }
 
 .activity .footer-left, .activity .footer-right {
@@ -729,9 +724,10 @@ summary:hover {
 
 .activity .footer-bot {
   margin-top: auto;
-  margin-bottom: 1em;
+  margin-top: 5em;
   height: 10%;
   float: bottom;
+
 }
 
 .activity .footer-bot a {
@@ -843,15 +839,26 @@ summary:hover {
   } 
 
   .activity article .article {
-    display: block;
+    display: grid;
+    text-align: center;
+    height: auto;
 
   }
 
-  .activity article .maintext {
+  .activity footer, .a {
+    display: grid;
+    height: auto;
+  }
+
+  .activity article .maintext, .activity .events {
     width: 90%;
+    margin: auto;
   }
 
   .activity .footer-top {
     display: block;
+  }
+  .activity .footer-right, .activity .footer-left {
+    width: 85%;
   }
 }
