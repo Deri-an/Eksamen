@@ -570,3 +570,212 @@ details summary {
 .specific-changes p {
   color:#464646;
 }
+
+/*everything beyond here is for activity. */
+.activity h1, .activity h2, .activity h3, .activity p {
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', monospace;
+}
+
+.activity h1, .activity h2, .activity h3 {
+  font-weight: 100;
+}
+
+.activity h1 {
+  font-size: 4em;
+}
+
+.activity h2 {
+  font-size: 2em;
+}
+
+.activity header, .activity article, .activity footer {
+  width: 90%;
+  background-color: rgb(10, 10, 10);
+  margin: auto;
+  border-radius: 1.5em;
+}
+
+.activity header {
+  display: flex;
+  text-align: right;
+  height: 8em;
+}
+
+.activity nav {
+  width: 60%;
+  margin: auto;
+  margin-left: 10%;
+}
+
+.activity nav > ul {
+  width: 100%;
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 70%;
+  display: flex;
+}
+
+.activity nav li {
+  margin: auto;
+  margin-left: 5%;
+  background-color: rgb(36, 36, 36);
+  border: solid rgb(60, 60, 60) 0.01em;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+} 
+
+.activity nav h2 {
+  font-size: 1.1em;
+}
+
+.activity nav a {
+  text-decoration: none;
+}
+
+.activity .menu {
+  padding: 0;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
+}
+
+.activity .menu li {
+  margin-left: 1rem;
+  color: white;
+}
+
+.activity .derigaming {
+  height: 8em;
+  border-radius: 5em;
+}
+
+.activity article {
+  text-align: center;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+.activity article p {
+  text-align: left;
+}
+ 
+ .activity .thicktext {
+  font-weight: 800;
+}
+
+ .activity .maintext {
+  width: 70%;
+  padding-top: 3em;
+}
+
+.activity .article {
+  display: flex;
+}
+
+.activity .events {
+  margin: 1.5rem;
+  float: right;
+  width: 30%;
+  display: block;
+}
+
+.activity .imageholder {
+  margin-top: 2em;
+  border: 0.07em solid rgba(255, 255, 255, 0.141);
+  padding: 0;
+  float: right;
+  background-color: rgb(30,30,30);
+  width: 90%;
+  height: 20rem;
+  padding: 1em;
+  margin: 0;
+}
+
+.activity .image {
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  float: center;
+  height: 70%;
+  width: 70%;
+}
+
+.activity .imageholder p {
+  text-align: center;
+}
+
+.activity footer {
+  margin-top: 3em;
+  height: 25em;
+  padding: 2em;
+  display: block;
+  background-image: none;
+}
+
+.activity .footer-top {
+  display: flex;
+  height: 80%;
+}
+
+.activity .footer-left, .activity .footer-right {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 46%;
+}
+
+.activity footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+.activity footer h3 {
+  border-bottom: rgb(60, 60, 60) solid 0.01em;
+  border-right: rgb(60, 60, 60) solid 0.01em;
+  width: 95%;
+  margin-top: 2em;
+}
+
+.activity .footer-bot {
+  margin-top: auto;
+  margin-bottom: 1em;
+  height: 10%;
+  float: bottom;
+}
+
+.activity .footer-bot a {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  margin-left: 1em;
+  font-size: 1.3em;
+}
+
+.activity footer .imageholder {
+  height: 80%;
+}
+
+.activity .player-portrait {
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  text-align: center;
+}
+
+.activity .footer-right > h2 {
+  text-align: center;
+  margin-bottom: 0.25em;
+  margin-top: 0.5em;
+}
+
+.activity .player-portrait img {
+  margin: auto;
+  margin-top: 0.5em;
+  height: 60%;
+  width: 95%;
+  object-fit: cover;
+}
