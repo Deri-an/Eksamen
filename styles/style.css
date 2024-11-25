@@ -8,6 +8,11 @@ This is so that I can have the same style on all of them, but only a side naviga
 Also, all of the styling with a ".activity" on the start belongs to activity.html. This is so that I can have 1 CSS file, and avoid having weird class names on the activity page.
 
 Content: 
+18-600: Styling for the 3 primary classes
+600-815: Styling for the activity page
+815-947 Styling for the responsive design, in case of mobile users or users with narrow screens.
+
+Enjoy!
 
 Styling for the general header, used for all 3 primary htmls*/
 header {
@@ -19,6 +24,7 @@ p, h1, h2, h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/*Common background color found in the 3 primary htmls*/
 header, .oslomet-logo, .oslomet-logo img {
   background-color: #a2ffbe;
 }
@@ -37,6 +43,7 @@ header, .oslomet-logo, .oslomet-logo img {
   float: middle;
 }
 
+/*Centered text for headers, logos, and such*/
 .oslomet-logo, .overskrift, .oversikt, article div h2, .side-nav > div, .interessert-liste {
   text-align: center;
 }
@@ -59,7 +66,7 @@ nav {
   height: 100%;
   text-align: center;
 }
-
+/*Primary way of design, with blocks of a heading followed by a paragraph*/
 article div {
   margin: auto;
   float: center;
@@ -68,13 +75,12 @@ article div {
   padding: 1em;
 }
 
-
-
 nav > div {
   margin: auto;
   width: 20%;
 }
 
+/*Navigation links*/
 nav a {
   font-weight: bold;
   color: #070606;
@@ -82,11 +88,13 @@ nav a {
   text-decoration: none;
 }
 
+/*The general design style goes for bolded black text to highlight links. Readable and understandable!*/
 a {
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
 
+/*The side navigation is only present on the index*/
 .side-nav {
   height: 100%;
   position: fixed;
@@ -95,7 +103,6 @@ a {
   float: right;
   border-right-style: double;
 }
-
 
 .side-nav a {
   text-decoration: none;
@@ -125,6 +132,7 @@ main {
   background-image: linear-gradient( #e3ffeb, white)
 }
 
+/*Footer bottom referds to the bottom of the bottom of the page*/
 .footer-bottom {
   width: 100%;
   border: 0.02em;
@@ -156,6 +164,7 @@ a:active {
   color: none;
 }
 
+/*This is for the part in the index that needed a little extra width to pull of that design*/
 .article-bottom {
   width: 95%;
   float: center;
@@ -193,6 +202,7 @@ article {
   padding: 0;
 }
 
+/*Aligns elements vertically*/
 .studiebakgrunn {
   display: grid;
   align-items: center;
@@ -252,14 +262,7 @@ article {
   padding: 0;
 }
 
-.article-top {
-  border-left: solid green 1em;
-  border-right: solid green 1em;
-  float: center;
-  margin: auto;
-}
-
-/* styling for felles-footer*/
+/* styling for the common footer found in the 3 primary htmls*/
 footer{
   padding: 0;
   margin: 0;
@@ -270,7 +273,6 @@ footer{
   align-items: center;
   display: grid;
 }
-
 
 .interessert-liste a div {
   width: 100%;
@@ -391,7 +393,7 @@ footer{
 
 
 
-/*styling for sections*/
+/*styling for sections, lining elements vertically after one another*/
 .oversikt {
   width: 80%;
   margin: auto;
@@ -427,7 +429,8 @@ footer{
   width: 81%;
   margin-left: 19%;
 }
-/*stylying for semestertabell*/
+
+/*styling for "semestertabell" or "semester table"*/
 body {
   background-color: #ffffff;
   margin: 0;
@@ -495,7 +498,7 @@ table.semester-table tr:nth-child(odd) {
   background-color: #ffffff;
 }
 
-/*dropdownmenu i main*/
+/*dropdownmenu for the table*/
 details {
   margin: 0.25em 0;
   cursor:pointer
@@ -544,6 +547,8 @@ summary:hover {
   margin: auto;
 }
 
+/*These images end up aligned diagonally*/
+
 .image1, .image2 {
   width: 95%;
   margin: auto;
@@ -591,10 +596,11 @@ summary:hover {
 
 /*everything beyond here is for activity. */
 
+/*This is to avoid the activity getting the 3 primary html's fading background, since it goes with another style*/
 .activity main {
   background-color: white;
+  background-image: none;
 }
-
 
 .activity h1, .activity h2, .activity h3, .activity p {
   color: rgb(255, 255, 255);
@@ -639,6 +645,7 @@ summary:hover {
   display: flex;
 }
 
+/*Displays the header options/buttons in a row-like manner, like normal headers*/
 .activity nav > div{
   background-color: rgb(36, 36, 36);
   border: solid rgb(60, 60, 60) 0.01em;
@@ -698,6 +705,7 @@ summary:hover {
   display: flex;
 }
 
+/*This is going to be next to all the text, so there will be text, and images + text on the right.*/
 .activity .events {
   margin: 1.5rem;
   float: right;
@@ -705,6 +713,7 @@ summary:hover {
   display: block;
 }
 
+/*Images are put inside these*/
 .activity .imageholder {
   margin-top: 2em;
   border: 0.07em solid rgba(255, 255, 255, 0.141);
@@ -737,6 +746,7 @@ summary:hover {
   background-image: none;
 }
 
+/*This is a weak version of nesting to make the "JOIN HERE" and the social media icons appear next to the image of THE GOAT*/
 .activity .footer-left, .activity .footer-right {
   display: block;
   margin: auto;
@@ -789,7 +799,7 @@ summary:hover {
   margin-bottom: 0.25em;
   margin-top: 0.5em;
 }
-
+/*Determines the placement of the image of "THE GOAT"*/
 .activity .player-portrait img {
   margin: auto;
   margin-top: 0.5em;
@@ -800,7 +810,8 @@ summary:hover {
 
 
 /* Responsive design */
-
+/*To sum things up, header and footer text usually shrink, "display: flex" usually becomes "display: grid" or 
+"display: block"*/
 @media(max-width:800px) {
   .side-nav {
     width: 0%;
