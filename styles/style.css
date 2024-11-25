@@ -547,6 +547,23 @@ summary:hover {
   color:#464646;
 }
 
+.lighthouse-bilder {
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  border: double 0.2em;
+}
+
+.lighthouse-bilder p {
+  color: rgb(71, 71, 71);
+  margin-bottom: 3em;
+}
+
+.lighthouse-bilder img {
+  width: 100%;
+}
+
 /*everything beyond here is for activity. */
 .activity h1, .activity h2, .activity h3, .activity p {
   color: rgb(255, 255, 255);
