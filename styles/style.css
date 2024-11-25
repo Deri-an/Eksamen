@@ -35,10 +35,10 @@ header, .oslomet-logo, .oslomet-logo img {
 }
 
 .oslomet-logo img {
-  max-width: 7.5em;
-  height: auto;
+  height: 50%;
+  width: 50%;
   mix-blend-mode:multiply;
-  background-color: #a2ffbe;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* Styling for navigasjonsmeny */
@@ -779,13 +779,11 @@ summary:hover {
   nav {
     height: 3em;
   }
-  .footer-text {
-    width: 100%;
+  
+  nav a {
+    font-size: 0.9em;
   }
-}
-
-@media(max-width:600px){
-  .nav a {
-    font-size: 10em;
+  .footer-text {
+    width: 90%;
   }
 }
