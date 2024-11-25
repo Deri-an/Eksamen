@@ -135,8 +135,22 @@ article {
 
 footer {
   margin-top: 3em;
-  height: 6em;
+  height: 25em;
   padding: 2em;
+  display: block;
+}
+
+.footer-top {
+  display: flex;
+  height: 80%;
+}
+
+.footer-left, .footer-right {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 46%;
 }
 
 footer a {
@@ -147,5 +161,44 @@ footer a {
 footer h3 {
   border-bottom: rgb(60, 60, 60) solid 0.01em;
   border-right: rgb(60, 60, 60) solid 0.01em;
-  width: 55%
+  width: 95%;
+  margin-top: 2em;
+}
+
+.footer-bottom {
+  margin-top: auto;
+  margin-bottom: 1em;
+}
+
+.footer-bottom a {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  margin-left: 1em;
+  font-size: 1.3em;
+}
+
+footer .imageholder {
+  height: 80%;
+}
+
+.player-portrait {
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  text-align: center;
+}
+
+.footer-right > h2 {
+  text-align: center;
+  margin-bottom: 0.25em;
+  margin-top: 0.5em;
+}
+
+.player-portrait img {
+  margin: auto;
+  margin-top: 0.5em;
+  height: 60%;
+  width: 95%;
+  object-fit: cover;
 }
