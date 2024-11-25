@@ -35,10 +35,10 @@ header, .oslomet-logo, .oslomet-logo img {
 }
 
 .oslomet-logo img {
-  max-width: 50%;
-  max-height: 50%;
-  object-fit: contain;
-  mix-blend-mode: multiply;
+  max-width: 7.5em;
+  height: auto;
+  mix-blend-mode:multiply;
+  background-color: #a2ffbe;
 }
 
 /* Styling for navigasjonsmeny */
@@ -185,10 +185,13 @@ article {
 }
 
 .student-historier {
-  text-align: center;
   border: solid 0.01em;
   background-color: #c2ffd4;
   padding: 0.3em;
+}
+
+.student-historier, .studieinformasjon, .faglig-leder {
+  text-align: center;
 }
 
 
@@ -197,15 +200,13 @@ article {
   margin: auto;
 }
 
-.studieinformasjon {
+.studieinformasjon, .side-nav img, .article-top {
   width: 80%;
-  text-align: center;
 }
 
 .faglig-leder {
   width: 100%;
   margin-top: 3em;
-  text-align: center;
 }
 
 .faglig-leder img, .studenthistorier img, .side-nav img  {
@@ -223,9 +224,6 @@ article {
   width: 95%;
 }
 
-.side-nav img {
-  width: 80%;
-}
 
 .side-nav li {
   list-style: none;
@@ -243,7 +241,6 @@ article {
 .article-top {
   border-left: solid green 1em;
   border-right: solid green 1em;
-  width: 80%;
   float: center;
   margin: auto;
 }
@@ -783,8 +780,5 @@ summary:hover {
   }
   .footer-text {
     width: 100%;
-  }
-  nav a {
-    font-size: 1.1em;
   }
 }
