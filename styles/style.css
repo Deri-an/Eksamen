@@ -1,6 +1,5 @@
 /* Styling for header */
 header {
-  background-color: #a2ffbe;
   justify-content: space-between;
   border-bottom-style: ridge;
 }
@@ -9,10 +8,12 @@ p, h1, h2, h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.oslomet-logo {
-  text-align: center;
-  margin-bottom: 1.25em;
+header, .oslomet-logo, .oslomet-logo img {
   background-color: #a2ffbe;
+}
+
+.oslomet-logo {
+  margin-bottom: 1.25em;
   margin: 0;
 }
 
@@ -21,6 +22,9 @@ p, h1, h2, h3 {
   width: 80%;
   margin: auto;
   float: middle;
+}
+
+.oslomet-logo, .overskrift, .oversikt, article div h2, .side-nav > div, .interessert-liste {
   text-align: center;
 }
 
@@ -32,7 +36,6 @@ p, h1, h2, h3 {
   max-width: 7.5em;
   height: auto;
   mix-blend-mode:multiply;
-  background-color: #a2ffbe;
 }
 
 /* Styling for navigasjonsmeny */
@@ -50,9 +53,6 @@ article div {
   padding: 1em;
 }
 
-article div h2 {
-  text-align: center;
-}
 
 nav ul {
   list-style: none;
@@ -88,9 +88,6 @@ a {
   border-right-style: double;
 }
 
-.side-nav > div {
-  text-align: center;
-}
 
 .side-nav a {
   text-decoration: none;
@@ -196,6 +193,7 @@ article {
   padding: 0.3em;
 }
 
+
 .studiebakgrunn div {
   float: center;
   margin: auto;
@@ -264,9 +262,6 @@ footer{
   display: grid;
 }
 
-.interessert-liste {
-  text-align: center;
-}
 
 .interessert-liste a div {
   width: 100%;
